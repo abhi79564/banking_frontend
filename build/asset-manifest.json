@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.42090988.css",
+    "main.js": "/static/js/main.5befb761.js",
+    "static/media/pexels-tim-samuel-5835268.jpg": "/static/media/pexels-tim-samuel-5835268.c8ca5e51cd22c28289be.jpg",
+    "static/media/pexels-expect-best-351264.jpg": "/static/media/pexels-expect-best-351264.b6fab13b5058c1847450.jpg",
+    "static/media/pexels-habib-904735.jpg": "/static/media/pexels-habib-904735.7794563e5124e5548887.jpg",
+    "static/media/pexels-kampus-production-8353786.jpg": "/static/media/pexels-kampus-production-8353786.7665301d0f9c7e0ae4c1.jpg",
+    "static/media/pexels-maitree-rimthong-1602726.jpg": "/static/media/pexels-maitree-rimthong-1602726.f8d1b4ffecbf92ff82cd.jpg",
+    "static/media/pexels-dom-j-45111.jpg": "/static/media/pexels-dom-j-45111.d7ae9e4137bdaae60c2e.jpg",
+    "static/media/pexels-michael-steinberg-342943.jpg": "/static/media/pexels-michael-steinberg-342943.e853dc6dbcfb195cde15.jpg",
+    "static/media/chatbot.jpg": "/static/media/chatbot.7f9272682bbc6ddf633b.jpg",
+    "static/media/loan - Copy - Copy.jpg": "/static/media/loan - Copy - Copy.cb168905ac62f4640bb0.jpg",
+    "static/media/withdrawl - Copy - Copy.jpg": "/static/media/withdrawl - Copy - Copy.ff0f1531d7c9dd556fed.jpg",
+    "static/media/customers - Copy - Copy.jpg": "/static/media/customers - Copy - Copy.6cc6b7805ff636e02b31.jpg",
+    "static/media/Online - Copy - Copy.jpg": "/static/media/Online - Copy - Copy.f003a1680a0a90339ead.jpg",
+    "static/media/Webd.avif": "/static/media/Webd.813e26e35576e7c9dcdd.avif",
+    "index.html": "/index.html",
+    "main.42090988.css.map": "/static/css/main.42090988.css.map",
+    "main.5befb761.js.map": "/static/js/main.5befb761.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.42090988.css",
+    "static/js/main.5befb761.js"
+  ]
+}

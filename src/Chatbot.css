@@ -1,0 +1,151 @@
+/* Chatbot Container */
+.chatbot-container {
+    width: 0px; /* Initial width for the chatbot icon */
+    position: fixed;
+    bottom: 20px;
+    right: 5rem;
+    display: flex;
+    flex-direction: column; /* Adjust to stack content vertically */
+    background-color: #BEADFA;
+    color: white;
+    border-radius: 5%;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Expanded Chatbot Container */
+  .chatbot-container.expanded {
+    width: 500px; /* Expanded width */
+    height: 600px;
+  }
+  
+  /* Chatbot Icon (centered in the container) */
+  .chatbot-icon {
+    border-radius: 50%;
+    padding: 1.25rem 2rem !important;
+    background-color: #BEADFA;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  /* Hide the chatbot icon when expanded */
+  .chatbot-icon.hidden {
+    display: none;
+  }
+  
+  /* Close Button (Upper right corner of the expanded chatbot) */
+  .close-button {
+    border-radius: 50%;
+
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: transparent;
+    border: none;
+    font-size: 20px;
+    color: #0c0d0e;
+    cursor: pointer;
+  }
+  
+  /* Chatbot Title */
+  .chatbot-title {
+    font-size: 20px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 7px;
+    margin: 10px 20px 3px !important; /* Add margin to push the title down */
+  }
+  
+  /* Chatbot Messages */
+  .chatbot-messages {
+    min-height: 475px;
+    max-height: 475px; /* Adjust the maximum height to your preference */
+    overflow-y: scroll; /* Make the messages scrollable */
+    padding: 10px;
+    margin: 1.5rem 0.7rem 0;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    width: 96%;
+  }
+  
+  /* Chatbot Message (User and Bot) */
+  .chatbot-message {
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+    width: fit-content;
+    max-width: 70%;
+  }
+  
+  .user {
+    display: flex !important;
+    justify-content: flex-end;
+  }
+  .senderMe {
+    background-color: #ffffff;
+    color: black;
+  }
+  .senderNotMe {
+    background-color: green;
+  }
+  
+  .bot {
+    display: flex !important;
+    justify-content: flex-start;
+  }
+  
+  /* Chatbot Input */
+  .chatbot-input {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0; /* Stick to the bottom */
+    left: 0;
+    right: 0;
+    gap: 0.5rem;
+  }
+  
+  input {
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 0.5rem 1rem !important;
+    color: black !important;
+    outline: none;
+  }
+  
+  button {
+    background-color: #000000;
+    color: white;
+    border: 1px solid white !important;
+    border-radius: 5px;
+    padding: 0.5rem 1rem !important;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Adjust the color of the scrollbar thumb (handle) */
+  .chatbot-messages::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 5px;
+  }
+  
+  /* Hide the default scrollbar on Webkit (Chrome and Safari) */
+  .chatbot-messages::-webkit-scrollbar {
+    width: 3px;
+    background: transparent;
+  }
+  
